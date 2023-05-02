@@ -1,0 +1,335 @@
+@media (max-width: 1030px) {
+    .inner-content{
+        top: 185px;
+    }
+    .img-setup{
+        width: 70% !important;
+    }
+    .contact-email button{
+        right: -65%;
+       }
+    
+}
+
+@media (max-width: 990px) {
+    .review{
+        top: 1150px;
+        left: 455px;
+    }
+
+    .arrow-left{
+        top: 1419px;
+        left: 72%;
+    }
+    .arrow-right{
+        top: 1419px;
+        left: 78%;
+    }
+}
+
+@media (max-width: 880px) {
+    .img-container{
+        width: 100%;
+    }
+   .hr-length{
+    width: 25%;
+   }
+   .review{
+        left: 400px;
+    }
+
+    .arrow-left{
+        left: 645px;
+    }
+    .arrow-right{
+        left: 700px;
+    }
+   .contact-email button{
+    right: -60%;
+   }
+
+}
+
+
+
+  
+@media (max-width: 808px) {
+    
+    .home-content{
+        padding: 42px;
+    }
+    .review{
+        width: 350px;
+        font-size: small;
+        left: 380px;
+    }
+    .arrow-left{
+        left: 72%;
+        top: 1380px;
+    }
+    .arrow-right{
+        left: 79%;
+        top: 1380px;
+    }
+    .review2{
+       display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .home{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .home-section{
+        flex-direction: column-reverse;
+        margin-top: 67px;
+    }
+
+    .home-content{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    .home-content h4{
+        font-size: 30px;
+    }
+    .home-content p{
+        font-size: 20px;
+    }
+    .img-container img{
+        height: auto;
+    }
+    .topheader .my-flex{
+        flex-direction: column;
+    }
+   
+    .card-list .card{
+        margin-left: 0px !important;
+    }
+
+    .about .my-flex p {
+        font-size: small;
+    }
+    .card-list{
+        gap: 15px;
+    }
+    .hr-length{
+        width: 17%;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-setup{
+        width: 100% !important;
+    }
+    .review{
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 0;
+        height: 328px;
+        width: 90vw;
+        margin-top: 15px;
+    }
+    .review p{
+        font-size: 30px;
+        text-align: justify;
+
+    }
+    .arrow-left,
+    .arrow-right{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .review-photo img{
+        height: 40px;
+        width: 40px;
+    }
+    .medium-font{
+        font-size: 15px;
+    }
+    .tiny-font{
+        font-size: 12px;
+    }
+
+    .features-top{
+        flex-direction: column-reverse;
+    }
+
+    .features-top .articles,
+    .features-top .parlor-img{
+        width: 100%;
+    }
+
+    .location-display .card{
+        width: 45%;
+    }
+      
+    .contact-box{
+        flex-direction: column !important;
+    }
+    .contact-article,
+    .contact-email{
+        width: 100% !important;
+    }
+    .contact-email{
+        height: 70px;
+        margin-top: 10px;
+    }
+    .contact-email button {
+        right: -70%;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+    .topheader{
+        margin-bottom: auto !important;
+    }
+    .topheader .my-flex{
+        flex-direction: row;
+    }
+    .navbar-text{
+        padding-left: 20px;
+    }
+    li{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+     .review{
+        height: 255px;
+     }
+     .review p{
+        font-size: 20px;
+     }
+    
+    .contact-email button{
+        left: 65%;
+    }
+
+}
+
+
+
+@media (max-width: 506px) {
+    .hr-length{
+     width: 10%;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+    .review p{
+        font-size: 16px;
+    }
+    .location-display{
+        justify-content: center;
+    }
+
+    .location-display .card{
+        width: 80%;
+    }
+    .img-setup{
+        width: 100% !important;
+    }
+    .contact-email button{
+        left: 60%;
+    }
+
+}
+
+
+
+
+@media (max-width: 475px) {
+   
+    .img-container img{
+        height: auto;
+    }
+    .features-top .articles p{
+        text-align: justify;
+    }
+    .contact-email button{
+        left: 55%;
+    }
+    .contact-email input{
+        font-size: x-small;
+        padding-left: 8px;
+    }
+    .contact-email button{
+        left: 60%;
+        font-size: 13px !important;
+    }
+    
+
+}
+
+@media (max-width: 415px) {
+    .home-content{
+        padding: 18px;
+    }
+    .contact-email button{
+        left: 55%;
+    }
+}
+
+@media (max-width: 374px) {
+    .hr-length{
+        width: 10px;
+    }
+    .center-item{
+        padding: 30px 63px;
+    }
+    .contact-email input{
+        font-size: 8px;
+    }
+    .contact-email button{
+        left: 53%;
+        font-size: 5px;
+    }
+
+    .about .my-flex p {
+        font-size: 10px;
+        margin-top: 0px !important;
+    }
+}
+
+
+@media (max-width:300px) {
+    .home-content{
+        padding: 8px;
+    }
+    .home-content h4{
+        font-size: 17px;
+    }
+    .home-content p{
+        font-size: 12px;
+    }
+    .about .my-flex h2{
+        font-size: 13px;
+        font-family: 600;
+    }
+    .about .my-flex p{
+        font-size: 6px;
+    }
+    .about .d-flex h3{
+        font-size: 12px !important;
+    }
+    .review{
+        padding: 20px 15px ;
+    }
+    .review p{
+        font-size: 12px;
+    }
+    .contact-box{
+        padding: 0px !important;
+    }
+
+    
+}
